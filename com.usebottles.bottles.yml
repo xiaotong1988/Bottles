@@ -186,8 +186,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/ImageMagick/ImageMagick
-        tag: 7.1.1-38
-        commit: b0ab92265bab638e6ecd2f18b45977c38771c671
+        tag: 7.1.1-43
+        commit: a2d96f40e707ba54b57e7d98c3277d3ea6611ace
         x-checker-data:
           type: git
           tag-pattern: ^([\d.]+-[\d]+)$
@@ -200,8 +200,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/flatpak/libportal
-        tag: 0.8.1
-        commit: 26c15008cbe579f57f89468384f8efc033f25f6f
+        tag: 0.9.0
+        commit: 731e7410fa5765e7c4eb76a51140a19637620c13
         x-checker-data:
           type: git
           is-important: true
@@ -256,8 +256,8 @@ modules:
         sources:
           - type: git
             url: https://gitlab.gnome.org/GNOME/vte
-            tag: 0.78.0
-            commit: 00c99e846bf83536f978b4fe5dc2c8a6983b8a94
+            tag: 0.78.2
+            commit: 99ec9e50c89cff9d42f613ef401a7f133a7d9b92
             x-checker-data:
               type: git
               tag-pattern: ^([\d.]+)$
